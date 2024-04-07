@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" >
+        <link href="css/main.css" rel="stylesheet" >
 
         <title>Venta carros</title>
     </head>
@@ -15,7 +16,7 @@
         <script src="node_modules/popper.js/dist/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"  ></script>
 
-        <div class="jumbotron bg-dark text-white py-4 px-5">
+        <div class="jumbotron">
             <h1>
                 Venta de carros
             </h1>
@@ -53,49 +54,143 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-3 py-4 text-center border border-info rounded bg-white">
-                    <h3>
-                        Renault 4
-                    </h3>
-                    <br>
-                    <h4>
-                        El carro mas conocido del mercado imaginario
-                    </h4>
-                    <button type="button" class="btn btn-outline-white btn-lg bg-primary text-white">Ir</button>
+            <div class="d-flex flex-wrap">
+                <div class="car-list-card border-info d-flex flex-column justify-content-between">
+                    <div>
+                        <h3>
+                            Renault 4
+                        </h3>
+                        <br>
+                        <h5>
+                            El carro mas conocido del mercado imaginario
+                        </h5>
+                    </div>
+                    <div>
+                        <button type="button" class="list-more-info-btn bg-primary">Mas informacion</button>
+                    </div>
                 </div>
-                <div class="col-3 py-4 text-center border border-info rounded bg-white ">
-                    <h3>
-                        Dodge challenger
-                    </h3>
-                    <br>
-                    <h4>
-                        El carro mas conocido del mercado imaginario
-                    </h4>
-                    <button type="button" class="btn btn-outline-white btn-lg bg-primary text-white">Ir</button>
+                <div class="car-list-card border-info d-flex flex-column justify-content-between">
+                    <div>
+                        <h3>
+                            Dodge Challenger
+                        </h3>
+                        <h5>
+                            Un icónico muscle car conocido por su potencia y diseño retro.
+                        </h5>
+                    </div>
+                    <div>
+                        <button type="button" class="list-more-info-btn bg-primary">Mas informacion</button>
+                    </div>
                 </div>
-                <div class="col-3 py-4 text-center border border-info rounded bg-white">
-                    <h3>
-                        Ford Mustang
-                    </h3>
-                    <br>
-                    <h4>
-                        El carro mas conocido del mercado imaginario
-                    </h4>
-                    <button type="button" class="btn btn-outline-white btn-lg bg-primary text-white">Ir</button>
+                <div class="car-list-card border-info d-flex flex-column justify-content-between">
+                    <div>
+                        <h3>
+                            Ford Mustang
+                        </h3>
+                        <br>
+                        <h5>
+                            Otro clásico muscle car famoso por su estilo y rendimiento deportivo.
+                        </h5>
+                    </div>
+                    <div>
+                        <button type="button" class="list-more-info-btn bg-primary">Mas informacion</button>
+                    </div>
                 </div>
-                <div class="col-3 py-4 text-center border border-info rounded bg-white">
-                    <h3>
-                        Chevrolet Camaro
-                    </h3>
-                    <br>
-                    <h4>
-                        El carro mas conocido del mercado imaginario
-                    </h4>
-                    <button type="button" class="btn btn-outline-white btn-lg bg-primary text-white">Ir</button>
+                <div class="car-list-card border-info d-flex flex-column justify-content-between">
+                    <div>
+                        <h3>
+                            Chevrolet Camaro
+                        </h3>
+                        <h5>
+                            Un competidor directo del Ford Mustang, también conocido por su estilo deportivo y potencia.
+                        </h5>
+                    </div>
+                    <div>
+                        <button type="button" class="list-more-info-btn bg-primary">Mas informacion</button>
+                    </div>
+                </div>
+                <div class="car-list-card border-info d-flex flex-column justify-content-between">
+                    <div>
+                        <h3>
+                            Audi A4
+                        </h3>
+                        <br>
+                        <h5>
+                            Un sedán de lujo conocido por su elegancia, tecnología avanzada y rendimiento sólido.
+                        </h5>
+                    </div>
+                    <div>
+                        <button type="button" class="list-more-info-btn bg-primary">Mas informacion</button>
+                    </div>
+                </div>
+                <div class="car-list-card border-info d-flex flex-column justify-content-between">
+                    <div>
+                        <h3>
+                            Hyundai Sonata
+                        </h3>
+                        <h5>
+                            Un sedán familiar popular conocido por su valor, comodidad y características tecnológicas.
+                        </h5>
+                    </div>
+                    <div>
+                        <button type="button" class="list-more-info-btn bg-primary">Mas informacion</button>
+                    </div>
+                </div>
+                <div class="car-list-card border-info d-flex flex-column justify-content-between">
+                    <div>
+                        <h3>
+                            Nissan Altima
+                        </h3>
+                        <br>
+                        <h5>
+                            Otro sedán familiar bien valorado, conocido por su confiabilidad, eficiencia y características de seguridad.
+                        </h5>
+                    </div>
+                    <div>
+                        <button type="button" class="list-more-info-btn bg-primary">Mas informacion</button>
+                    </div>
+                </div>
+                <div class="car-list-card border-info d-flex flex-column justify-content-between">
+                    <div>
+                        <h3>
+                            Ford F-150
+                        </h3>
+                        <br>
+                        <h5>
+                            Camioneta pickup de tamaño completo conocida por su robustez, versatilidad y capacidad de remolque
+                        </h5>
+                    </div>
+                    <div>
+                        <button type="button" class="list-more-info-btn bg-primary">Mas informacion</button>
+                    </div>
                 </div>
             </div>
         </div>
-        
+        <footer class="bg-dark">
+            <div class="row">
+                <div class="col text-start">
+                    <a href="https://www.facebook.com/">Facebook</a>
+                    <br>
+                    <a href="https://www.instagram.com/">Instagram</a>
+                </div>
+                <div class="col text-white text-center">
+                    <address>
+                        Barrancabermeja, Colombia
+                        <br>
+                        +57XXXXXXXXXXXXXXXXXX
+                        <br>
+                        contacto@ventacarros.com
+
+                    </address>
+                </div>
+                <div class="col text-end">
+                    <a href="https://www.google.com/">Nosotros</a>
+                    <br>
+                    <a href="https://www.google.com/">Terminos y condiciones</a>
+                    <br>
+                    <a href="https://www.google.com/">Contacto</a>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
