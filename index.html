@@ -10,11 +10,24 @@
         <title>Venta carros</title>
     </head>
     <body class="bg-light">
-        <!---Optional JavaScript-->
-        <!---JQuery, Popper, -->
-        <script src="node_modules/jquery/dist/jquery.min.js"></script>
-        <script src="node_modules/popper.js/dist/popper.min.js"></script>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"  ></script>
+        
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="#">
+                Vehiculos
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./about.html">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Precios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Terminos y condiciones</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                </div>
+            </div>
+        </nav>
 
         <div class="jumbotron">
             <h1>
@@ -22,6 +35,11 @@
             </h1>
         </div>
         <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active" aria-current="page">Home</li>
+                </ol>
+            </nav>
             <div class="row my-3 ">
                     <div class="col-4 text-center border border-primary bg-white">
                         <p>
@@ -192,5 +210,10 @@
                 </div>
             </div>
         </footer>
+        <!---Optional JavaScript-->
+        <!---JQuery, Popper, -->
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/popper.js/dist/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     </body>
 </html>
