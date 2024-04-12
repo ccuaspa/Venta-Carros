@@ -18,6 +18,9 @@
     
     text-align: center;    
 }
+.car-list-card-icon{
+    padding-right: 10px;
+}
 .list-more-info-btn{
     color:white;
 
@@ -35,3 +38,4 @@ footer{
 .footer-element-icon{
     margin-right:10px;
 }
+
