@@ -17,6 +17,13 @@
     
     padding: 30px;
 }
+.breadcrumb{
+    margin:20px 0px;
+    padding: 10px;
+
+    background-color:lightblue;
+    color:black;
+}
 .responsiveImg{
     height:400px;
     width: 100%;
