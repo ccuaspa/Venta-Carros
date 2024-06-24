@@ -56,6 +56,18 @@
     width:100%;
 }
 
+.store-contact-btn{
+    color:white;
+
+    border-style: solid;
+    border-radius: 25px;
+    border-color: white;
+
+    padding: 0px 10px 0px 10px;
+    width:75%;
+}
+
+
 footer{
     padding: 10px 0px 10px 0px;
 }

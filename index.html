@@ -107,6 +107,8 @@
             
             <img src="images/responsiveImg.jpg" class="responsiveImg img-fluid" alt="Responsive image">
 
+            <!--Seccion tarjetas-->
+
             <div class="d-flex flex-wrap">
                 <div class="card car-list-card border-info d-flex flex-column justify-content-between">
                     <div class="card-body">
@@ -280,9 +282,38 @@
                         </h5>
                     </div>
                     <div>
-                        <button type="button" class="list-more-info-btn bg-primary"><span class="oi oi-info car-list-card-icon"></span>Más información</button>
+                        <button type="button" class="list-more-info-btn bg-primary" data-toggle="modal" data-target="#contacto"><span class="oi oi-info car-list-card-icon"></span>Más información</button>
                     </div>
                 </div>                
+            </div>
+
+
+            <!--Modals-->
+
+            <div class="modal fade" id="contacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content"><div class="modal-header">
+                        <h5 class="modal-title " id="exampleModalLabel">Contacto con punto de venta</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Tu email</label>
+                                <input type="text" class="form-control" id="recipient-name"></input>
+                            </div>
+                            <div class="form-group">
+                                <label for="message-text" class="col-form-label">Mensaje: </label>
+                                <textarea type="text" class="form-control" id="message-text"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success">Envia</button>
+                    </div>
+                </div>
             </div>
         </div>
         <footer class="bg-dark">
