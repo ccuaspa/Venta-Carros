@@ -28,6 +28,11 @@
     height:400px;
     width: 100%;
 }
+.carousel-item {
+    height: 400px; 
+    align-items: center;
+    justify-content: center;
+}
 .car-list-card{
     border-style: solid;
     border-radius: 25px;
